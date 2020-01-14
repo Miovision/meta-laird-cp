@@ -17,7 +17,7 @@ DEPENDS = " \
     libnewt \
     curl \
 "
-inherit autotools gettext update-rc.d systemd bluetooth bash-completion gtk-doc lrd-url
+inherit autotools gettext update-rc.d systemd bash-completion gtk-doc lrd-url
 
 SRC_URI = " \
     ${LRD_60_URI_BASE}/lrd-network-manager-src-${PV}.tar.xz \
